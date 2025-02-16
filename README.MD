@@ -1,4 +1,4 @@
-# 强改版本号以支持汉化更多jetbrains全家桶和Android Studio软件版本的方法
+# 中文语言包强改版本号以支持汉化更多jetbrains全家桶和Android Studio软件版本的方法
 
 # 起因
 更新了Android Studio最新版
@@ -12,7 +12,7 @@ Android Studio Ladybug Feature Drop 2024.2.2
 
 # 步骤
 1. 先去[汉化插件](https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/versions)页面下载最新的压缩包，使用本仓库的[zh.232.322.zip](zh.232.322.zip)也可。
-2. 使用[bandizip](https://cn.bandisoft.com/bandizip/)等解压软件解压此压缩包。目前如[zh.232.322](./zh.232.322/zh.232.322/)所示。
+2. 使用[bandizip](https://cn.bandisoft.com/bandizip/)等解压软件解压此压缩包。目录如[zh.232.322](./zh.232.322/zh.232.322/)所示。
 3. 使用[bandizip](https://cn.bandisoft.com/bandizip/)等解压软件查看`lib`目录下的jar文件，不要解压，直接打开查看。
 ![jar-view](./img/jar-view.png)
 4. 选中`META-INF`目录，右击`plugin.xml`文件，选择`编辑`。
